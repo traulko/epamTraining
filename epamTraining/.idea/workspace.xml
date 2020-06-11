@@ -1,18 +1,168 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b54666a-740e-43de-aa53-88bc2ef619ed" name="Default Changelist" comment="" />
+    <list default="true" id="0b54666a-740e-43de-aa53-88bc2ef619ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/epamTraining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/epamTraining.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="TestNG Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1cqyAerta3vot5Y37eujsNEAwta" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="0d570cb2-96df-43cc-80da-7f777e6d0afe" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../java/Restaurant-Food-Ordering-System" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test.traulko.day1.service" />
+      <recent name="test.traulko.day1.validator" />
+      <recent name="com.traulko.day1.service" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.FunctionValidatorTest">
+    <configuration name="ArithmeticValidatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="epamTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.traulko.day1.validator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.traulko.day1.validator" />
+      <option name="MAIN_CLASS_NAME" value="test.traulko.day1.validator.ArithmeticValidatorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateTimeValidatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="epamTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.traulko.day1.validator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.traulko.day1.validator" />
+      <option name="MAIN_CLASS_NAME" value="test.traulko.day1.validator.DateTimeValidatorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionValidatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="epamTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.traulko.day1.validator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.traulko.day1.validator" />
+      <option name="MAIN_CLASS_NAME" value="test.traulko.day1.validator.FunctionValidatorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PointServiceTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="epamTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.traulko.day1.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.traulko.day1.service" />
+      <option name="MAIN_CLASS_NAME" value="test.traulko.day1.service.PointServiceTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeServiceTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="epamTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.traulko.day1.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.traulko.day1.service" />
+      <option name="MAIN_CLASS_NAME" value="test.traulko.day1.service.ShapeServiceTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.FunctionValidatorTest" />
+        <item itemvalue="TestNG.DateTimeValidatorTest" />
+        <item itemvalue="TestNG.ArithmeticValidatorTest" />
+        <item itemvalue="TestNG.ShapeServiceTest" />
+        <item itemvalue="TestNG.PointServiceTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -24,7 +174,112 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591270275563</updated>
+      <workItem from="1591270282279" duration="1525000" />
+      <workItem from="1591271880341" duration="5456000" />
+      <workItem from="1591431071857" duration="1821000" />
+      <workItem from="1591615701841" duration="10285000" />
+      <workItem from="1591704862561" duration="13500000" />
+      <workItem from="1591784585595" duration="37953000" />
+      <workItem from="1591869978641" duration="29581000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser" timestamp="1591831698111">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591831698111" />
+    <state x="499" y="188" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1591742609341">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="188" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1591742609341" />
+    <state x="399" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1591706573465">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="399" y="101" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1591706573465" />
+    <state x="714" y="86" key="FileChooserDialogImpl" timestamp="1591900708965">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="714" y="86" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591900708965" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1591917092996">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591917092996" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1591917092995">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591917092995" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1591917092995">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591917092995" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1591917092995">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591917092995" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1591909086270">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591909086270" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1591909086270">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591909086270" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1591909086270">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591909086270" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1591909086270">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591909086270" />
+    <state x="226" y="0" key="SettingsEditor" timestamp="1591914754872">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="226" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591914754872" />
+    <state x="357" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1591869978623">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="357" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591869978623" />
+    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1591916600137">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1591916600137" />
+    <state x="475" y="31" key="refactoring.ChangeSignatureDialog" timestamp="1591889917418">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="475" y="31" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1591889917418" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1591816497056">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1591816497056" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591877014762">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591877014762" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/traulko/day1/service/DateTimeService.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/traulko/day1/service/ArithmeticService.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/traulko/day1/service/DateTimeService.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
