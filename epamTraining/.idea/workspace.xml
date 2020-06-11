@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b54666a-740e-43de-aa53-88bc2ef619ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/epamTraining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/epamTraining.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/day1/service/FunctionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/day1/service/FunctionService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -180,7 +178,7 @@
       <workItem from="1591615701841" duration="10285000" />
       <workItem from="1591704862561" duration="13500000" />
       <workItem from="1591784585595" duration="37953000" />
-      <workItem from="1591869978641" duration="29581000" />
+      <workItem from="1591869978641" duration="30883000" />
     </task>
     <servers />
   </component>

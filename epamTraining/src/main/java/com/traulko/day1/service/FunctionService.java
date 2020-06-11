@@ -17,6 +17,12 @@ public class FunctionService {
             throw new IncorrectValueException("Zero in denominator!");
         }
 
+        /*
+        F(x) =
+            3 * x + 9 - x^2, if x >= 3
+            1 / (x^3 - 6), if x < 3
+        */
+
         if (argument >= 3) {
             return (3 * argument + 9 - Math.pow(argument, SECOND_DEGREE));
         }
