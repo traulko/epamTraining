@@ -44,7 +44,8 @@ public class CustomTime {
             return false;
         }
         CustomTime other = (CustomTime) o;
-        return (this.hour == other.hour && this.minute == other.minute && this.second == other.second);
+        return (this.hour == other.hour &&
+                this.minute == other.minute && this.second == other.second);
     }
 
     @Override

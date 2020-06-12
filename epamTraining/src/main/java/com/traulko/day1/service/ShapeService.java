@@ -38,7 +38,8 @@ public class ShapeService {
         return Math.pow(side, 2);
     }
 
-    public double calculateFoursquareSquareDifferenceCoefficient(double area1, double area2) throws IncorrectValueException {
+    public double calculateFoursquareSquareDifferenceCoefficient(double area1,
+                                                                 double area2) throws IncorrectValueException {
         if (area1 < 0 || area2 < 0) {
             throw new IncorrectValueException("Areas should be > 0!");
         }

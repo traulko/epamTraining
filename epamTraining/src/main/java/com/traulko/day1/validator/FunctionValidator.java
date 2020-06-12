@@ -8,7 +8,8 @@ public class FunctionValidator {
         return (Math.pow(argument, THIRD_DEGREE) != FUNCTION_ZERO_DIVIDER);
     }
 
-    public boolean isCorrectFunctionValues(double segmentValue1, double segmentValue2, double step) {
+    public boolean isCorrectFunctionValues(double segmentValue1,
+                                           double segmentValue2, double step) {
         double maxSegmentValue = Double.max(segmentValue1, segmentValue2);
         double minSegmentValue = Double.min(segmentValue1, segmentValue2);
         double distance = maxSegmentValue - minSegmentValue;

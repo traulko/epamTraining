@@ -12,6 +12,7 @@ public class PointService {
     0 if points are equidistant
      */
     public int getClosestToOriginPoint(CustomPoint point1, CustomPoint point2) {
-        return Double.compare(point1.calculateDistanceFromOrigin(), point2.calculateDistanceFromOrigin());
+        return Double.compare(point1.calculateDistanceFromOrigin(),
+                point2.calculateDistanceFromOrigin());
     }
 }

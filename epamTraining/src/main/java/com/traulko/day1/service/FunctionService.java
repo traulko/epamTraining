@@ -31,7 +31,8 @@ public class FunctionService {
         }
     }
 
-    public Map<Double, Double> calculateTangentFunction(double segmentValue1, double segmentValue2, double stepValue) throws IncorrectValueException {
+    public Map<Double, Double> calculateTangentFunction(double segmentValue1, double segmentValue2,
+                                                        double stepValue) throws IncorrectValueException {
         FunctionValidator functionValidator = new FunctionValidator();
 
         if (!functionValidator.isCorrectFunctionValues(segmentValue1, segmentValue2, stepValue)) {

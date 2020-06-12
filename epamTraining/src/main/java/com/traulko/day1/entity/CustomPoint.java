@@ -41,7 +41,8 @@ public class CustomPoint {
             return false;
         }
         CustomPoint other = (CustomPoint) o;
-        return (this.xCoordinate == other.xCoordinate && this.yCoordinate == other.yCoordinate);
+        return (this.xCoordinate == other.xCoordinate &&
+                this.yCoordinate == other.yCoordinate);
     }
 
     @Override

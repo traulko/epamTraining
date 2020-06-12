@@ -23,10 +23,12 @@ public class DateTimeService {
 
     public boolean isLeapYear(int year) {
         return ((year % FOUR_HUNDRED_YEARS == 0) ||
-                ((year % FOUR_YEARS == 0) && (year % ONE_HUNDRED_YEARS != 0)));
+                ((year % FOUR_YEARS == 0) &&
+                        (year % ONE_HUNDRED_YEARS != 0)));
     }
 
-    public int getCountOfDaysInMonth(int monthNumber, int yearNumber) throws IncorrectValueException {
+    public int getCountOfDaysInMonth(int monthNumber,
+                                     int yearNumber) throws IncorrectValueException {
         DateTimeValidator dateTimeValidator = new DateTimeValidator();
 
         Month[] months = Month.values();
@@ -38,8 +40,13 @@ public class DateTimeService {
             throw new IncorrectValueException("Incorrect month value");
         }
 
-        return (isLeapYear(yearNumber) && months[monthNumber - 1].equals(Month.FEBRUARY)) ?
-                months[monthNumber - 1].days + 1 : months[monthNumber - 1].days;
+        boolean isFebruary = months[monthNumber - 1].equals(Month.FEBRUARY);
+        if (isLeapYear(yearNumber) && isFebruary) {
+            return months[monthNumber - 1].days + 1;
+        }
+        else {
+            return months[monthNumber - 1].days;
+        }
     }
 
     public CustomTime convertSecondsToTimeFormat (int totalSeconds) throws IncorrectValueException {
