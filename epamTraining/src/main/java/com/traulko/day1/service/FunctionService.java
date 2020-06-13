@@ -25,8 +25,7 @@ public class FunctionService {
 
         if (argument >= 3) {
             return (3 * argument + 9 - Math.pow(argument, SECOND_DEGREE));
-        }
-        else {
+        } else {
             return 1 / (Math.pow(argument, THIRD_DEGREE) - 6);
         }
     }

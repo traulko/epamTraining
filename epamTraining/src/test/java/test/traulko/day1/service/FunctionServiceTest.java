@@ -51,7 +51,7 @@ public class FunctionServiceTest {
     }
 
     @Test(expectedExceptions = IncorrectValueException.class)
-    public void calculateArithmeticFunctionExceptionTest () throws IncorrectValueException {
+    public void calculateArithmeticFunctionExceptionTest() throws IncorrectValueException {
         double argument = Math.cbrt(6);
         functionService.calculateArithmeticFunction(argument);
     }
@@ -85,7 +85,7 @@ public class FunctionServiceTest {
     }
 
     @Test(expectedExceptions = IncorrectValueException.class)
-    public void calculateTangentFunctionExceptionTest () throws IncorrectValueException {
+    public void calculateTangentFunctionExceptionTest() throws IncorrectValueException {
         functionService.calculateTangentFunction(0, 0, 0);
     }
 }

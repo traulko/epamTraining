@@ -24,7 +24,7 @@ public class ShapeService {
         return 2 * radius;
     }
 
-    public double calculateFoursquareSideWithDiagonal (double diagonal) throws IncorrectValueException {
+    public double calculateFoursquareSideWithDiagonal(double diagonal) throws IncorrectValueException {
         if (diagonal < 0) {
             throw new IncorrectValueException("Diagonal should be > 0!");
         }
@@ -43,12 +43,12 @@ public class ShapeService {
         if (area1 < 0 || area2 < 0) {
             throw new IncorrectValueException("Areas should be > 0!");
         }
-        return area1 == area2 ? 1 : (area1 > area2 ? area1/area2 : area2/area1);
+        return area1 == area2 ? 1 : (area1 > area2 ? area1 / area2 : area2 / area1);
     }
 
     public double calculateCircumference(double radius) throws IncorrectValueException {
         if (radius <= 0) {
-            throw  new IncorrectValueException("Radius should be > 0!");
+            throw new IncorrectValueException("Radius should be > 0!");
         }
         return 2 * Math.PI * radius;
     }

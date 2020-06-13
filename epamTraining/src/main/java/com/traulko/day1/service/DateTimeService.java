@@ -9,18 +9,6 @@ public class DateTimeService {
     public static final int FOUR_HUNDRED_YEARS = 400;
     public static final int ONE_HUNDRED_YEARS = 100;
 
-    private enum Month {
-        JANUARY(31), FEBRUARY(28), MARCH(31), APRIL(30),
-        MAY(31), JUNE(30), JULY(31), AUGUST(31),
-        SEPTEMBER(30), OCTOBER(31), NOVEMBER(30), DECEMBER(31);
-
-        private final int days;
-
-        Month(int days) {
-            this.days = days;
-        }
-    }
-
     public boolean isLeapYear(int year) {
         return ((year % FOUR_HUNDRED_YEARS == 0) ||
                 ((year % FOUR_YEARS == 0) &&
@@ -43,13 +31,12 @@ public class DateTimeService {
         boolean isFebruary = months[monthNumber - 1].equals(Month.FEBRUARY);
         if (isLeapYear(yearNumber) && isFebruary) {
             return months[monthNumber - 1].days + 1;
-        }
-        else {
+        } else {
             return months[monthNumber - 1].days;
         }
     }
 
-    public CustomTime convertSecondsToTimeFormat (int totalSeconds) throws IncorrectValueException {
+    public CustomTime convertSecondsToTimeFormat(int totalSeconds) throws IncorrectValueException {
         DateTimeValidator dateTimeValidator = new DateTimeValidator();
 
         if (!dateTimeValidator.isCorrectCountOfSeconds(totalSeconds)) {
@@ -62,6 +49,18 @@ public class DateTimeService {
         int countOfSeconds = totalSeconds - countOfMinutes * 60;
 
         return new CustomTime(countOfHours, countOfMinutes, countOfSeconds);
+    }
+
+    private enum Month {
+        JANUARY(31), FEBRUARY(28), MARCH(31), APRIL(30),
+        MAY(31), JUNE(30), JULY(31), AUGUST(31),
+        SEPTEMBER(30), OCTOBER(31), NOVEMBER(30), DECEMBER(31);
+
+        private final int days;
+
+        Month(int days) {
+            this.days = days;
+        }
     }
 }
 

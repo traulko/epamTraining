@@ -10,6 +10,7 @@ import static org.testng.Assert.assertTrue;
 
 public class FunctionValidatorTest {
     FunctionValidator functionValidator;
+
     @BeforeClass
     public void setUp() {
         functionValidator = new FunctionValidator();

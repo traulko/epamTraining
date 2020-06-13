@@ -75,7 +75,7 @@ public class ArithmeticServiceTest {
     }
 
     @Test(expectedExceptions = IncorrectValueException.class)
-    public void checkTwoEvenNumbersExceptionTest () throws IncorrectValueException {
+    public void checkTwoEvenNumbersExceptionTest() throws IncorrectValueException {
         arithmeticService.checkTwoEvenNumbers(1);
     }
 
@@ -83,7 +83,7 @@ public class ArithmeticServiceTest {
     public void checkPerfectNumberPositiveTest() {
         try {
             boolean actual = arithmeticService.checkPerfectNumber(6);
-            assertTrue(actual,"checkPerfectNumberPositiveTest is failed as...");
+            assertTrue(actual, "checkPerfectNumberPositiveTest is failed as...");
         } catch (IncorrectValueException e) {
             fail(e.getMessage());
         }
@@ -93,14 +93,14 @@ public class ArithmeticServiceTest {
     public void checkPerfectNumberNegativeTest() {
         try {
             boolean actual = arithmeticService.checkPerfectNumber(7);
-            assertFalse(actual,"checkPerfectNumberNegativeTest is failed as...");
+            assertFalse(actual, "checkPerfectNumberNegativeTest is failed as...");
         } catch (IncorrectValueException e) {
             fail(e.getMessage());
         }
     }
 
     @Test(expectedExceptions = IncorrectValueException.class)
-    public void perfectNumberExceptionTest () throws IncorrectValueException {
+    public void perfectNumberExceptionTest() throws IncorrectValueException {
         arithmeticService.checkPerfectNumber(-1);
     }
 }

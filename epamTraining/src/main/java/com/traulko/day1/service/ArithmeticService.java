@@ -16,7 +16,7 @@ public class ArithmeticService {
         return (int) Math.pow(number, SECOND_DEGREE);
     }
 
-    public boolean checkTwoEvenNumbers (int ... numbers) throws IncorrectValueException {
+    public boolean checkTwoEvenNumbers(int... numbers) throws IncorrectValueException {
         ArithmeticValidator arithmeticValidator = new ArithmeticValidator();
 
         if (!arithmeticValidator.isCorrectIntValueSequence(numbers)) {
@@ -38,7 +38,7 @@ public class ArithmeticService {
         int sumOfDividers = 0;
         for (int i = 1; i <= number / 2; i++) {
             if (number % i == 0) {
-                sumOfDividers+= i;
+                sumOfDividers += i;
             }
         }
         return sumOfDividers == number;

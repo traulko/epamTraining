@@ -69,7 +69,7 @@ public class DateTimeServiceTest {
     public void convertSecondsToTimeFormatPositiveTest() {
         try {
             CustomTime actualCustomTime = dateTimeService.convertSecondsToTimeFormat(54435);
-            CustomTime expectedCustomTime = new CustomTime(15, 7,15);
+            CustomTime expectedCustomTime = new CustomTime(15, 7, 15);
             assertEquals(actualCustomTime, expectedCustomTime,
                     "convertSecondsToTimeFormatPositiveTest failed as...");
         } catch (IncorrectValueException e) {
@@ -81,7 +81,7 @@ public class DateTimeServiceTest {
     public void convertSecondsToTimeFormatNegativeTest() {
         try {
             CustomTime actualCustomTime = dateTimeService.convertSecondsToTimeFormat(3600);
-            CustomTime expectedCustomTime = new CustomTime(1, 1,1);
+            CustomTime expectedCustomTime = new CustomTime(1, 1, 1);
             assertNotEquals(actualCustomTime, expectedCustomTime,
                     "convertSecondsToTimeFormatNegativeTest failed as...");
         } catch (IncorrectValueException e) {
@@ -90,7 +90,7 @@ public class DateTimeServiceTest {
     }
 
     @Test(expectedExceptions = IncorrectValueException.class)
-    public void perfectNumberExceptionTest () throws IncorrectValueException {
+    public void perfectNumberExceptionTest() throws IncorrectValueException {
         dateTimeService.convertSecondsToTimeFormat(100000);
     }
 }
