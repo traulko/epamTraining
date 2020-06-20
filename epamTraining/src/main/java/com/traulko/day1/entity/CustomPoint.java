@@ -37,7 +37,7 @@ public class CustomPoint {
         if (this == o) {
             return true;
         }
-        if (this.getClass() != o.getClass() || o == null) {
+        if (o == null || this.getClass() != o.getClass()) {
             return false;
         }
         CustomPoint other = (CustomPoint) o;

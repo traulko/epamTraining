@@ -40,7 +40,7 @@ public class CustomTime {
         if (this == o) {
             return true;
         }
-        if (this.getClass() != o.getClass() || o == null) {
+        if (o == null || this.getClass() != o.getClass()) {
             return false;
         }
         CustomTime other = (CustomTime) o;

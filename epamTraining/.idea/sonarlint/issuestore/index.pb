@@ -39,3 +39,9 @@ t
 Dsrc/test/java/test/traulko/day1/validator/FunctionValidatorTest.java,3\7\37d01c74a11cf276aa200d4e4f4406413ad555a7
 p
 @src/test/java/test/traulko/day1/service/FunctionServiceTest.java,2\d\2d1f6835be29aa9d5a7e05728f755ad21d16a85f
+_
+/src/main/java/com/traulko/day2/entity/Ball.java,2\3\233008cf9b31b19a37941286edcaaca404e48a45
+q
+Asrc/main/java/com/traulko/day2/validator/BasketBallValidator.java,5\6\5605058ba0c0d145f128f60b1532d09777eaf11f
+a
+1src/main/java/com/traulko/day2/entity/Basket.java,4\2\42df9ba6dd6a819afff1feaf34875bf70d628129
