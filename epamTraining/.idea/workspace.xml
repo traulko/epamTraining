@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b54666a-740e-43de-aa53-88bc2ef619ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/233008cf9b31b19a37941286edcaaca404e48a45" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42df9ba6dd6a819afff1feaf34875bf70d628129" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/5605058ba0c0d145f128f60b1532d09777eaf11f" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97083a123fc5a1c29c43bc311bd9fa919fe97cf8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97083a123fc5a1c29c43bc311bd9fa919fe97cf8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb9e3b6208323814d3d5ebd649a9bb335934ff14" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb9e3b6208323814d3d5ebd649a9bb335934ff14" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/day1/entity/CustomPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/day1/entity/CustomPoint.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/day1/entity/CustomTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/day1/entity/CustomTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/day3/entity/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/day3/entity/Basket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/day3/service/BasketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/day3/service/BasketService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="TestNG Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -71,7 +75,20 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.BasketValidatorTest">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.traulko.day3.Main" />
+      <module name="epamTraining" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.traulko.day3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArithmeticBasketBallServiceTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="epamTraining" />
       <extension name="coverage">
@@ -123,24 +140,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasketServiceTest.isSuitableBallToBasketExceptionTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="epamTraining" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.traulko.day3.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.traulko.day3.service" />
-      <option name="MAIN_CLASS_NAME" value="test.traulko.day3.service.BasketServiceTest" />
-      <option name="METHOD_NAME" value="isSuitableBallToBasketExceptionTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BasketValidatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="epamTraining" />
       <extension name="coverage">
@@ -160,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="TestNG.BasketValidatorTest" />
         <item itemvalue="TestNG.BallValidatorTest" />
         <item itemvalue="TestNG.BasketServiceTest" />
         <item itemvalue="TestNG.ArithmeticBasketBallServiceTest" />
-        <item itemvalue="TestNG.BasketServiceTest.isSuitableBallToBasketExceptionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +190,8 @@
       <workItem from="1591961032061" duration="9444000" />
       <workItem from="1592225065519" duration="2256000" />
       <workItem from="1592483128388" duration="9623000" />
-      <workItem from="1592568151114" duration="21979000" />
+      <workItem from="1592568151114" duration="22610000" />
+      <workItem from="1592631197152" duration="5187000" />
     </task>
     <servers />
   </component>
@@ -223,46 +223,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="714" y="86" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591990426711" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1592617283481">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1592635665819">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592617283481" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1592617283480">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592635665819" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1592635665819">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592617283480" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1592617283480">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592635665819" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1592635665819">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592617283480" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1592617283481">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592635665819" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1592635665819">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592617283481" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1592614718238">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592635665819" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1592635666583">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592614718238" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1592614718237">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592635666583" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1592635666583">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592614718237" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1592614718237">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1592635666583" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1592635666583">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592614718237" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1592614718237">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1592635666583" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1592635666583">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592614718237" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1592635666583" />
     <state x="226" y="0" key="SettingsEditor" timestamp="1591914754872">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="226" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591914754872" />
-    <state x="357" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1592568178948">
+    <state x="357" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1592631197642">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="357" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1592568178948" />
+    <state x="357" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1592631197642" />
     <state x="540" y="115" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1592616283326">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -297,6 +297,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/traulko/day1/service/DateTimeService.java</url>
           <line>39</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/traulko/day3/Main.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

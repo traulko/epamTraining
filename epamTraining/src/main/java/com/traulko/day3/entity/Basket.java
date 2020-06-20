@@ -25,6 +25,14 @@ public class Basket {
         return balls;
     }
 
+    public void add(Ball ball) {
+        balls.add(ball);
+    }
+
+    public void remove(int index) {
+        balls.remove(index);
+    }
+
     @Override
     public int hashCode() {
         final int prime = 31;

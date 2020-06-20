@@ -15,11 +15,8 @@ public class BasketService {
             throw new BasketBallException("Ball is null");
         }
 
-        List<Ball> balls = basket.getBalls();
-
-        basket.getBalls().add(ball);
         if (isSuitableBallToBasket(basket, ball)) {
-            balls.add(ball);
+            basket.add(ball);
             return true;
         }
         return false;
@@ -37,7 +34,7 @@ public class BasketService {
             return false;
         }
 
-        balls.remove(index);
+        basket.remove(index);
         return true;
     }
 
