@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b54666a-740e-43de-aa53-88bc2ef619ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/233008cf9b31b19a37941286edcaaca404e48a45" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42df9ba6dd6a819afff1feaf34875bf70d628129" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/5605058ba0c0d145f128f60b1532d09777eaf11f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97083a123fc5a1c29c43bc311bd9fa919fe97cf8" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97083a123fc5a1c29c43bc311bd9fa919fe97cf8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb9e3b6208323814d3d5ebd649a9bb335934ff14" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fb9e3b6208323814d3d5ebd649a9bb335934ff14" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/day3/entity/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/day3/entity/Basket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/day3/service/BasketService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/day3/service/BasketService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/day3/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +183,7 @@
       <workItem from="1592225065519" duration="2256000" />
       <workItem from="1592483128388" duration="9623000" />
       <workItem from="1592568151114" duration="22610000" />
-      <workItem from="1592631197152" duration="5187000" />
+      <workItem from="1592631197152" duration="5579000" />
     </task>
     <servers />
   </component>
@@ -297,11 +289,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/traulko/day1/service/DateTimeService.java</url>
           <line>39</line>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/traulko/day3/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
