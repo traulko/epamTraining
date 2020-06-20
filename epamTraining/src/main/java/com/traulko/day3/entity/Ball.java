@@ -11,6 +11,21 @@ public class Ball {
         this.customColor = customColor;
     }
 
+    public enum CustomColor {
+        WHITE(0), BLACK(1), YELLOW(2), ORANGE(3), BLUE(4),
+        GREEN(5), RED(6), PURPLE(7), GRAY(8), BROWN(9);
+
+        private final int colorNumber;
+
+        CustomColor(int colorNumber) {
+            this.colorNumber = colorNumber;
+        }
+
+        public int getColorNumber() {
+            return colorNumber;
+        }
+    }
+
     public double getVolume() {
         return volume;
     }
@@ -51,20 +66,5 @@ public class Ball {
         sb.append(", customColor=").append(customColor);
         sb.append('}');
         return sb.toString();
-    }
-
-    public enum CustomColor {
-        WHITE(0), BLACK(1), YELLOW(2), ORANGE(3), BLUE(4),
-        GREEN(5), RED(6), PURPLE(7), GRAY(8), BROWN(9);
-
-        private final int colorNumber;
-
-        CustomColor(int colorNumber) {
-            this.colorNumber = colorNumber;
-        }
-
-        public int getColorNumber() {
-            return colorNumber;
-        }
     }
 }

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b54666a-740e-43de-aa53-88bc2ef619ed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/day3/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/day3/entity/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/day3/entity/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/traulko/day3/entity/Basket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/traulko/day3/entity/Basket.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +185,7 @@
       <workItem from="1592225065519" duration="2256000" />
       <workItem from="1592483128388" duration="9623000" />
       <workItem from="1592568151114" duration="22610000" />
-      <workItem from="1592631197152" duration="5579000" />
+      <workItem from="1592631197152" duration="7045000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,6 @@
 package com.traulko.day3.entity;
 
+import java.util.Collections;
 import java.util.List;
 
 public class Basket {
@@ -22,7 +23,7 @@ public class Basket {
     }
 
     public List<Ball> getBalls() {
-        return balls;
+        return Collections.unmodifiableList(balls);
     }
 
     public void add(Ball ball) {
